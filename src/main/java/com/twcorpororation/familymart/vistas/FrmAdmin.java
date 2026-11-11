@@ -347,7 +347,7 @@ public class FrmAdmin extends JFrame {
         return lblValor;
     }
 
-    // LÓGICA DE BASE DE DATOS
+    // LÓGICA DE BASE DE DATOS - CRUD
     private void limpiarCamposProductos() {
         txtCodigo.setText(""); txtNombre.setText(""); txtPrecio.setText(""); txtStock.setText("");
         idProductoSeleccionado = -1; 
