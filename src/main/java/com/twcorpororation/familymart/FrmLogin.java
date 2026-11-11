@@ -188,7 +188,7 @@ public class FrmLogin extends JFrame {
         add(pnlDerecho);
     }
 
-    // LÓGICA DE BASE DE DATOS 
+    // LÓGICA DE BASE DE DATOS LOGIN
     private void iniciarSesion() {
         String usuario = txtUsuario.getText().trim();
         String password = new String(txtPassword.getPassword());
