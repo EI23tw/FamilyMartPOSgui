@@ -258,7 +258,7 @@ public class FrmAdmin extends JFrame {
         return panel;
     }
 
-    // 3. PESTAÑA: DASHBOARD
+    // 3. PESTAÑA: REPORTES
     private JPanel crearPanelDashboard() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         panel.setBackground(FONDO);
